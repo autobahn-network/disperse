@@ -6,8 +6,7 @@ const Connect = ({ connect }) => {
         onClick={connect}
         className="px-2 mt-6 p-2 italic"
         style={{
-          background: "aquamarine",
-          boxShadow: "6px 6px crimson",
+            border: "2px solid #000",
         }}
       >
         connect wallet

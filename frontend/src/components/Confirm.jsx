@@ -22,7 +22,7 @@ const Confirm = ({
 
   return (
     <div className="pt-16">
-      <h3 className="text-2xl font-light italic">confirm</h3>
+      <h3 className="text-2xl font-light italic">4. Confirm</h3>
       <ul>
         <li>
           <div className="flex justify-between mt-4">
@@ -67,7 +67,7 @@ const Confirm = ({
         </li>
       </ul>
       <div className="mt-8">
-        <h3 className="text-2xl font-light italic ">allowance</h3>
+        <h3 className="text-2xl font-light italic ">5. Allowance</h3>
         <div className="mt-4 flex items-center">
           <button
             onClick={approve}
@@ -75,8 +75,7 @@ const Confirm = ({
               isDisabled && `disabled:cursor-default`
             }`}
             style={{
-              background: "aquamarine",
-              boxShadow: "6px 6px crimson",
+              border: "2px solid #000",
             }}
             disabled={isDisabled}
           >
@@ -93,8 +92,7 @@ const Confirm = ({
               isDisabled && `disabled:cursor-default`
             }`}
             style={{
-              background: "aquamarine",
-              boxShadow: "6px 6px crimson",
+              border: "2px solid #000",
             }}
           >
             disperse token

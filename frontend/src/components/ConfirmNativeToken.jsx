@@ -22,7 +22,7 @@ const ConfirmNativeToken = ({
 
   return (
     <div className="pt-16">
-      <h3 className="text-2xl font-light italic">confirm</h3>
+      <h3 className="text-2xl font-light italic">4. Confirm</h3>
       <ul>
         <li>
           <div className="flex justify-between mt-4">
@@ -76,8 +76,7 @@ const ConfirmNativeToken = ({
                 isDisabled && `disabled:cursor-default`
               }`}
               style={{
-                background: "aquamarine",
-                boxShadow: "6px 6px crimson",
+                border: "2px solid #000",
               }}
             >
               disperse TXL

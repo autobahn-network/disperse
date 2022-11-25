@@ -184,7 +184,7 @@ const Payment = ({ address }) => {
   return (
     <div className="pt-16">
       <h3 className="text-2xl font-light italic">
-        send
+        2. Send
         <span
           onClick={() => setCurrentLink("ether")}
           className={`border-gray-600 border-b-2 ${
@@ -219,7 +219,6 @@ const Payment = ({ address }) => {
               onChange={(e) => setTokenAddress(e.target.value)}
               style={{
                 width: "100%",
-                background: "aquamarine",
                 color: "#768882",
               }}
             />
@@ -227,8 +226,7 @@ const Payment = ({ address }) => {
               onClick={loadToken}
               className="ml-4 px-2"
               style={{
-                background: "aquamarine",
-                boxShadow: "6px 6px crimson",
+                border: "2px solid #000",
               }}
             >
               load

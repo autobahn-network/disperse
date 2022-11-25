@@ -2,6 +2,7 @@ import { ethers } from "ethers";
 import { createContext, useEffect, useReducer, useState } from "react";
 
 import "./App.css";
+import Navbar from "./components/Navbar";
 import Header from "./components/Headers";
 import Payment from "./components/Payment";
 import WalletInfo from "./components/WalletInfo";
@@ -99,6 +100,7 @@ function App() {
           network: state.network,
         }}
       >
+        <Navbar />
         <div className="content-container p-12 bg-white">
           <Header address={address} />
           {isMetamaskInstalled ? (
